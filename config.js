@@ -17,5 +17,5 @@ var server={
 }
 
 
-export.db     = redis_db;
-export.server = server; 
+exports.db     = redis_db;
+exports.server = server; 
