@@ -42,3 +42,10 @@ http://127.0.0.1:8000/getList?queueName
 http://127.0.0.1:8000/getLen
 
 http://127.0.0.1:8000/getList?queueName
+
+
+按值删除队列元素
+
+http://127.0.0.1:8000/removeValue?value=值
+
+http://127.0.0.1:8000/removeValue?queueName=队列名称&value=值
